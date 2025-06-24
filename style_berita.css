@@ -1,0 +1,111 @@
+.body {
+    margin: 0 auto;
+    font: 16px;
+    padding: 30px;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: darkkhaki;
+    padding: 20px;
+    font-family: sans-serif;
+    border-radius: 20px;
+    
+    
+}
+.header {
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    background-color: #cc6666;
+}
+.judul {
+    font-size: 20px;
+
+}
+.judul :hover {
+    color: blue;
+    
+}
+.head ul li{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 20px;
+}
+.head a {
+    text-decoration: none;
+    
+}
+.head a :hover{
+    color: blue;
+    
+
+}
+.berita-item {
+    display: flex;
+    border: 3px solid #cc6666;
+    background-color: #dce738;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+.berita-item2 {
+    display: flex;
+    border: 3px solid #55cad3;
+    background-color: #579e48;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.berita-item3 {
+    display: flex;
+    border: 3px solid #0f84e4;
+    background-color: #d64fb9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+  
+  .berita-gambar {
+    width: 30%;
+  }
+  
+  .berita-gambar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .berita-konten {
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  .berita-konten h2 {
+    color: #c54949;
+    margin-top: 0;
+  }
+  
+  .berita-konten p {
+    text-align: justify;
+    color: #161212;
+  }
+  
+  .berita-konten a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .berita-konten a:hover {
+    text-decoration: underline;
+  }
+  .footer {
+    background-color: rgb(189, 141, 141);
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: sans-serif;
+  }

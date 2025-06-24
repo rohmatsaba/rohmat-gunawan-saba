@@ -1,0 +1,197 @@
+.body {
+    margin: 0 auto;
+    font: 16px;
+    padding: 30px;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: darkkhaki;
+    padding: 20px;
+    font-family: sans-serif;
+    border-radius: 20px;
+    
+}
+.header {
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    background-color:#cc6666 ;
+}
+.judul {
+    font-size: 20px;
+
+}
+.judul :hover {
+    color: blue;
+    
+}
+.head ul li{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 20px;
+}
+.head a {
+    text-decoration: none;
+}
+.head a :hover{
+    color: blue;
+    
+
+}
+.image {
+    background-image: url(gambar2.jpeg);
+    border-radius: 50px;
+    background-size: cover;
+    background-position: 5px;
+    height: 300px;
+    padding: 20px;
+}
+.konten {
+    padding: 20px;
+    text-align: justify;
+}
+.konten.judul-konten {
+    font-size: 20px;
+    font-weight: bold;
+}
+.konten.penulis {
+   font-size: 12px;
+}
+.konten.penulis a{
+    color: blueviolet;
+    text-decoration: none;
+}
+.konten .penulis a:hover{
+    color: darkseagreen;
+    background-color: blueviolet;
+}
+.footer {
+    background-color: rgb(189, 141, 141);
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: sans-serif;
+
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .item {
+    width: 100%;
+    aspect-ratio: 3 /4;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 2px solid #005580;
+    background-color: #fff;
+  }
+  
+  .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s ease;
+  }
+  
+  .item img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  .container-profil {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    background: #b99c9c;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-color: #4c8bf5;
+  }
+  
+  /* FOTO KIRI (30%) */
+  .photo {
+    flex: 0 0 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a1a16e;
+    padding: 20px;
+  }
+  
+  .photo img {
+    width: 200px;
+    height: 300px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 3px solid #4c8bf5;
+  }
+  
+  /* TEKS KANAN (70%) */
+  .text {
+    flex: 0 0 70%;
+    padding: 30px;
+  }
+  
+  .text h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #4c8bf5;
+  }
+  
+  .text ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .text li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .text li span {
+    display: inline-block;
+    width: 150px;
+    color: #666;
+    font-weight: bold;
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .photo, .text {
+      flex: 1 1 100%;
+    }
+  
+    .text li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .text li span {
+      width: auto;
+      margin-bottom: 4px;
+    }
+  }
+  .judul-galeri {
+    padding: 20px;
+    color: #666;
+
+  }
+  
